@@ -1,0 +1,247 @@
+.body {
+    background-color: rgba(229, 230, 230, 0.76);
+ 
+}
+
+.select_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+    height: 50vh;
+    width: 800px;
+}
+
+.section_nav {
+
+    height: 81vh;
+    padding-top: 8rem;
+   
+}
+
+.section_img {
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+}
+
+.section_img img {
+    width: 150px;
+    height: 150px;
+
+}
+
+.w_div {
+    width: 25px;
+}
+
+.section_img_div svg {
+    width: 30px;
+    height: 30px;
+    color: #0196e3;
+    transition: 0.5s;
+}
+
+.svg_s_i_d svg {
+    width: 40px;
+    height: 40px;
+    color: #0196e3;
+    transition: 0.5s;
+}
+.section_img_div p{
+    font-size: 20px;
+}
+.section_img_div h6{
+    text-align: center;
+    font-size: 22px;
+}
+
+.svg_s_i_d_1:hover svg {
+    color: #36187d;
+    transition: 0.5s;
+}
+
+.svg_s_i_d:hover svg {
+    color: #36187d;
+    transition: 0.5s;
+    
+}
+
+.section_img_div {
+    background-color: white;
+    border-radius: 35px;
+    padding: 5px 25px;
+    width: 100%;
+    height: 14vh;
+}
+
+.section_selekt_text {
+    background: -webkit-linear-gradient(135deg, rgb(32, 168, 229) 16%, rgb(36, 53, 118) 70%);
+    background: -moz-linear-gradient(135deg, rgb(32, 168, 229) 16%, rgb(36, 53, 118) 70%);
+    background: linear-gradient(135deg, rgb(32, 168, 229) 16%, rgb(36, 53, 118) 70%);
+    padding: 50px;
+    border-radius: 25px;
+    color: aliceblue;
+
+}
+
+.section_selekt_text button {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    padding: 15px 50px;
+    border-radius: 15px;
+    background: none;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    border-color: rgb(255, 255, 255);
+    transition: 0.7s;
+}
+
+.section_selekt_text:hover button {
+    background-color: #36187d;
+}
+
+
+.section_img_div {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.section_selekt_text p {
+    width: 400px;
+}
+
+.selekt_blok_1 select {
+    width: 400px;
+    height: 5vh;
+    border: none;
+    -webkit-box-shadow: 2px 3px 28px 2px rgba(202, 202, 202, 0.3) inset;
+    -moz-box-shadow: 2px 3px 28px 2px rgba(202, 202, 202, 0.3) inset;
+    box-shadow: 2px 3px 28px 2px rgba(202, 202, 202, 0.3) inset;
+    border-radius: 15px;
+}
+
+.selekt_blok_1 option {
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+@media (min-width :320px) and (max-width: 374px){
+
+
+    .header {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+       
+    }
+    .select_div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        height: 50vh;
+        width: 800px;
+    }
+    .section_img_div {
+        background-color: white;
+        border-radius: 35px;
+        padding: 5px 2px;
+        width: 100%;
+        height: 14vh;
+        gap: 5px;
+    }
+    .section_img_div p{
+        font-size: 7px;
+    }
+    .section_img_div h6{
+        text-align: center;
+        font-size: 10px;
+    }
+    .section_img img {
+        width: 50px;
+        height: 50px;
+    
+    }
+    .section_img_div svg {
+        width: 20px;
+        height: 20px;
+        color: #0196e3;
+        transition: 0.5s;
+    }
+.svg_s_i_d svg {
+    width: 20px;
+    height: 20px;
+    color: #0196e3;
+    transition: 0.5s;
+}
+
+.section_selekt_text{
+    padding: 20px;
+}
+.section_nav {
+
+    height: 81vh;
+    padding-top: 8rem;
+   
+}
+.section_selekt_text button {
+    margin-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    padding: 15px 20px;
+    border-radius: 15px;
+    background: none;
+    font-weight: 500;
+    font-size: 8px;
+    color: #ffffff;
+    border-color: rgb(255, 255, 255);
+    transition: 0.7s;
+}
+.section_selekt_text p {
+    width: 300px;
+    font-size: 8px;
+}
+.section_selekt_text h1 {
+    width: 50px;
+    font-size: 11px;
+}
+.selekt_blok_1 select {
+    width: 200px;
+    height: 3vh;
+    border: none;
+    -webkit-box-shadow: 2px 3px 28px 2px rgba(202, 202, 202, 0.3) inset;
+    -moz-box-shadow: 2px 3px 28px 2px rgba(202, 202, 202, 0.3) inset;
+    box-shadow: 2px 3px 28px 2px rgba(202, 202, 202, 0.3) inset;
+    border-radius: 15px;
+}
+
+.selekt_blok_1 option {
+    font-size: 25px;
+    font-weight: 400;
+
+}
+
+
+
+
+
+
+
+
+
+}

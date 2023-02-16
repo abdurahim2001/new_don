@@ -1,0 +1,137 @@
+.body{
+    background-color: rgba(229, 230, 230, 0.76);
+    
+}
+.komer_flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    width: 80%;
+    padding: 30px 50px;
+    border-radius: 50px;
+
+}
+.komer_flex img{
+    width: 300px;
+    border-radius: 20px;
+}
+.kvar{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.kvar_p p{
+   color:  #35b8fc;
+   font-size: 25px;
+   font-weight: 600;
+   
+}
+.kvar_p{
+    text-align: center;
+}
+.komer_flex button{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    padding: 15px 50px;
+    border-radius: 15px;
+    background: none;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    border: none;
+    background-color:#35b8fc;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color:  #36187d;
+    transition: 0.4s;
+}
+.komer_flex h1{
+    color: #36187d;
+    font-size: 35px;
+    font-weight: 400;
+    width: 350px;
+}
+.komer_text h1{
+    color: #36187d;
+    font-size: 50px;
+    font-weight: 400;
+    padding: 10rem;
+}
+@media (min-width :320px) and (max-width: 374px){
+
+    .komer_flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        padding: 20px;
+        border-radius: 15px;
+    
+    }
+    .komer_flex img{
+        width: 100px;
+        border-radius: 20px;
+    }
+    .kvar{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        width: 300px;
+    }
+    .kvar_p p{
+       color:  #35b8fc;
+       font-size: 10px;
+       font-weight: 500;
+       
+    }
+    .kvar_p{
+        text-align: center;
+    }
+    .komer_flex button{
+        margin-top: 20px;
+        padding-bottom: 20px;
+        margin-left: 50px;
+        text-align: center;
+        padding: 5px 10px;
+        border-radius: 15px;
+        background: none;
+        font-weight: 500;
+        font-size: 15px;
+        color: #ffffff;
+        border: none;
+        background-color:#35b8fc;
+        transition: 0.5s;
+    }
+    .btn:hover{
+        background-color:  #36187d;
+        transition: 0.4s;
+    }
+    .komer_flex h1{
+        color: #36187d;
+        font-size: 15px;
+        font-weight: 400;
+        width: 350px;
+        padding-left: 50px;
+    }
+    .komer_flex p{
+        padding-left: 50px;
+        width: 300px;
+    }
+    .komer_text h1{
+        color: #36187d;
+        font-size: 20px;
+        font-weight: 400;
+        padding: 0rem;
+        
+    }
+
+
+}

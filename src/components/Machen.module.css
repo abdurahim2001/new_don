@@ -1,0 +1,102 @@
+.menu_logo img {
+    width: 150px;
+}
+.color_2{
+    background-color: rgba(229, 230, 230, 0.76);
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+}
+.navbar_color{
+    border-radius: 15px;
+    height: 12vh;
+    width: 100%;
+}
+
+.menu_navbar{
+    width: 93%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.menu_section{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    border-radius: 35px;
+    padding: 40px;
+    width: 180vh;
+    gap: 3rem;
+    align-items: center;
+    -webkit-box-shadow: 1px 9px 36px -8px rgba(23, 34, 43, 0.59);
+    -moz-box-shadow: 1px 9px 36px -8px rgba(23, 34, 43, 0.59);
+    box-shadow: 1px 9px 36px -8px rgba(23, 34, 43, 0.59);
+}
+.menu_text{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+}
+.menu_igon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.menu_igon svg{
+    color: #5a1177;
+    width: 50px;
+    height: 50px;
+    transition: 0.5s;
+}
+.igon_1:hover svg{
+    color: rgba(13, 186, 243, 0.904);
+    -o-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+  -webkit-transform: translateY(-5px);  
+  transform: translateY(-5px);
+  transition: 0.5s;
+}
+.svg_menu{
+    width: 25px;
+    height: 25px;
+    color: #5a1177;
+    transition: 0.5s;
+}
+.o_div{
+    width: 60px;
+}
+.b_menu{
+    font-size:20px;
+    font-weight: 450;
+    color: #5a1177;
+    color: rgb(0, 0, 0);
+}
+.b_menu:hover{
+    color: #35b8fc;
+   -o-transform: translateY(-5px);
+   -ms-transform: translateY(-5px);
+   -moz-transform: translateY(-5px);
+   -webkit-transform: translateY(-5px);  
+   transform: translateY(-5px);
+   transition: 0.5s;
+}
+
+@media (min-width :320px) and (max-width: 374px){
+
+.menu_section{
+    flex-direction: column;
+}
+.menu_text{
+    flex-direction: column;
+}
+.igon_1 svg{
+    width: 0px;
+    height:0px;
+    color: #5a1177;
+    transition: 0.5s;
+}
+
+}
